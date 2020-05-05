@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "children" : [ {
+        "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail)",
+        "uid" : "f7c817f92dfa14fb",
+        "parentUid" : "3d32da0208e8b89a178cc142c041cf32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1588687504458,
+          "stop" : 1588687505839,
+          "duration" : 1381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d32da0208e8b89a178cc142c041cf32"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

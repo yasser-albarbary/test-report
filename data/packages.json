@@ -1,0 +1,31 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Browse acutesttraining PUBLICA‌-1 issue",
+    "uid" : "2fea5291c923e493",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588687500667,
+      "stop" : 1588687504455,
+      "duration" : 3788
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail)",
+    "uid" : "f7c817f92dfa14fb",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1588687504458,
+      "stop" : 1588687505839,
+      "duration" : 1381
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

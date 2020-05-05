@@ -1,0 +1,41 @@
+{
+  "0e50e914c2b6d29f5dd9f0359e0853ae" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7c817f92dfa14fb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "time" : {
+        "start" : 1588687504458,
+        "stop" : 1588687505839,
+        "duration" : 1381
+      }
+    } ]
+  },
+  "c0fc1466010abe89b85e6525510b3ff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fea5291c923e493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588687500667,
+        "stop" : 1588687504455,
+        "duration" : 3788
+      }
+    } ]
+  }
+}

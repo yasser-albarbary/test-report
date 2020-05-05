@@ -1,0 +1,135 @@
+{
+  "uid" : "f7c817f92dfa14fb",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail)",
+  "historyId" : "0e50e914c2b6d29f5dd9f0359e0853ae",
+  "time" : {
+    "start" : 1588687504458,
+    "stop" : 1588687505839,
+    "duration" : 1381
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+  "statusTrace" : "  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 852, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 1233, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 693, in fail\n    raise self.failureException(msg)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+    "statusTrace" : "  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 852, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 1233, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 693, in fail\n    raise self.failureException(msg)\n",
+    "steps" : [ {
+      "name" : "Given the Jira Cloud instance acutesttraining has a publicly accessible project with issuekey \"PUBLICA‌-1\"",
+      "time" : {
+        "start" : 1588687504459,
+        "stop" : 1588687504459,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When CDAF test visits the url \"https://acutesttraining.atlassian.net/browse/PUBLICA-1?oldIssueView=true\" without logging in",
+      "time" : {
+        "start" : 1588687504459,
+        "stop" : 1588687505774,
+        "duration" : 1315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then the page title is \"Sample issue XXXXXXXX\"",
+      "time" : {
+        "start" : 1588687505774,
+        "stop" : 1588687505839,
+        "duration" : 65
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "statusTrace" : "  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 852, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 1233, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\yasse\\appdata\\local\\programs\\python\\python37\\lib\\unittest\\case.py\", line 693, in fail\n    raise self.failureException(msg)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "build-test"
+  }, {
+    "name" : "tag",
+    "value" : "should-fail"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "feature",
+    "value" : "Webdriver PUBLICA browser tests"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "47d61d35b7c01e52",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "time" : {
+        "start" : 1588687197890,
+        "stop" : 1588687199912,
+        "duration" : 2022
+      }
+    }, {
+      "uid" : "cc4f245ce94a3e7f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "time" : {
+        "start" : 1588687168546,
+        "stop" : 1588687169960,
+        "duration" : 1414
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "build-test", "web", "should-fail" ]
+  },
+  "source" : "f7c817f92dfa14fb.json",
+  "parameterValues" : [ ]
+}
